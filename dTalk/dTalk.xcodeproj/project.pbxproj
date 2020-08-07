@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A78DDCA6BB864122A46306F /* Pods_dTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAE6326927B47843C2510E6 /* Pods_dTalk.framework */; };
+		1B21923ED297D70FF42333B0 /* Pods_dTalk_dTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A126059D128E0BA2FE03A852 /* Pods_dTalk_dTalkUITests.framework */; };
+		93072B6924DC1C0A00A4C85A /* SearchContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93072B6824DC1C0A00A4C85A /* SearchContactsViewController.swift */; };
+		93072B6F24DC2D8C00A4C85A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93072B6E24DC2D8C00A4C85A /* ProfileViewController.swift */; };
+		93072B7124DC325A00A4C85A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93072B7024DC325A00A4C85A /* SettingsViewController.swift */; };
+		93072B7424DC336F00A4C85A /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93072B7224DC336F00A4C85A /* SettingsTableViewCell.swift */; };
+		93072B7524DC336F00A4C85A /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93072B7324DC336F00A4C85A /* SettingsTableViewCell.xib */; };
 		93CAEDFA24D5FF00000CFF06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CAEDF924D5FF00000CFF06 /* AppDelegate.swift */; };
 		93CAEDFC24D5FF00000CFF06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CAEDFB24D5FF00000CFF06 /* SceneDelegate.swift */; };
 		93CAEDFE24D5FF00000CFF06 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CAEDFD24D5FF00000CFF06 /* LoginViewController.swift */; };
@@ -17,6 +24,8 @@
 		93CAEE1424D5FF01000CFF06 /* dTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CAEE1324D5FF01000CFF06 /* dTalkTests.swift */; };
 		93CAEE1F24D5FF01000CFF06 /* dTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CAEE1E24D5FF01000CFF06 /* dTalkUITests.swift */; };
 		93CAEE2D24D6242A000CFF06 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CAEE2C24D6242A000CFF06 /* RegisterViewController.swift */; };
+		93DE70CA24DACDC90028723C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93DE70C924DACDC80028723C /* GoogleService-Info.plist */; };
+		AF217829D94BBC6753E38083 /* Pods_dTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F13D4BAC010A98D989AC983 /* Pods_dTalkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11247CD626A816F070ACFE6D /* Pods-dTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dTalkTests.debug.xcconfig"; path = "Target Support Files/Pods-dTalkTests/Pods-dTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F13D4BAC010A98D989AC983 /* Pods_dTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		540EEDFB149A2E5E7DF1EE17 /* Pods-dTalk-dTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dTalk-dTalkUITests.debug.xcconfig"; path = "Target Support Files/Pods-dTalk-dTalkUITests/Pods-dTalk-dTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70EA3654E67542AFBE2AA644 /* Pods-dTalk-dTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dTalk-dTalkUITests.release.xcconfig"; path = "Target Support Files/Pods-dTalk-dTalkUITests/Pods-dTalk-dTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7CC839BDE23C8BE446839E3E /* Pods-dTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dTalk.release.xcconfig"; path = "Target Support Files/Pods-dTalk/Pods-dTalk.release.xcconfig"; sourceTree = "<group>"; };
+		93072B6824DC1C0A00A4C85A /* SearchContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchContactsViewController.swift; sourceTree = "<group>"; };
+		93072B6E24DC2D8C00A4C85A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		93072B7024DC325A00A4C85A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		93072B7224DC336F00A4C85A /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		93072B7324DC336F00A4C85A /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
 		93CAEDF624D5FF00000CFF06 /* dTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CAEDF924D5FF00000CFF06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93CAEDFB24D5FF00000CFF06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +72,11 @@
 		93CAEE1E24D5FF01000CFF06 /* dTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dTalkUITests.swift; sourceTree = "<group>"; };
 		93CAEE2024D5FF01000CFF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93CAEE2C24D6242A000CFF06 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		93DE70C924DACDC80028723C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A126059D128E0BA2FE03A852 /* Pods_dTalk_dTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dTalk_dTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07544878F7E8CEBE77467B2 /* Pods-dTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dTalk.debug.xcconfig"; path = "Target Support Files/Pods-dTalk/Pods-dTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		BB868755F8B5E68D44680AE9 /* Pods-dTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dTalkTests.release.xcconfig"; path = "Target Support Files/Pods-dTalkTests/Pods-dTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEAE6326927B47843C2510E6 /* Pods_dTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A78DDCA6BB864122A46306F /* Pods_dTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF217829D94BBC6753E38083 /* Pods_dTalkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +100,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B21923ED297D70FF42333B0 /* Pods_dTalk_dTalkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29E6C7E1BFDEB66F1B751C74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B07544878F7E8CEBE77467B2 /* Pods-dTalk.debug.xcconfig */,
+				7CC839BDE23C8BE446839E3E /* Pods-dTalk.release.xcconfig */,
+				540EEDFB149A2E5E7DF1EE17 /* Pods-dTalk-dTalkUITests.debug.xcconfig */,
+				70EA3654E67542AFBE2AA644 /* Pods-dTalk-dTalkUITests.release.xcconfig */,
+				11247CD626A816F070ACFE6D /* Pods-dTalkTests.debug.xcconfig */,
+				BB868755F8B5E68D44680AE9 /* Pods-dTalkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		93CAEDED24D5FF00000CFF06 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +127,8 @@
 				93CAEE1224D5FF01000CFF06 /* dTalkTests */,
 				93CAEE1D24D5FF01000CFF06 /* dTalkUITests */,
 				93CAEDF724D5FF00000CFF06 /* Products */,
+				29E6C7E1BFDEB66F1B751C74 /* Pods */,
+				AC0A49A61621F207CAFDDB06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 		93CAEDF824D5FF00000CFF06 /* dTalk */ = {
 			isa = PBXGroup;
 			children = (
+				93DE70C924DACDC80028723C /* GoogleService-Info.plist */,
 				93CAEE3324D6EB27000CFF06 /* Resources */,
 				93CAEE3224D6EB16000CFF06 /* Views */,
 				93CAEE3124D6EB02000CFF06 /* Models */,
@@ -137,6 +180,9 @@
 			children = (
 				93CAEE2C24D6242A000CFF06 /* RegisterViewController.swift */,
 				93CAEDFD24D5FF00000CFF06 /* LoginViewController.swift */,
+				93072B6824DC1C0A00A4C85A /* SearchContactsViewController.swift */,
+				93072B6E24DC2D8C00A4C85A /* ProfileViewController.swift */,
+				93072B7024DC325A00A4C85A /* SettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -161,6 +207,8 @@
 				93CAEDFF24D5FF00000CFF06 /* Main.storyboard */,
 				93CAEE0524D5FF01000CFF06 /* Assets.xcassets */,
 				93CAEE0724D5FF01000CFF06 /* LaunchScreen.storyboard */,
+				93072B7224DC336F00A4C85A /* SettingsTableViewCell.swift */,
+				93072B7324DC336F00A4C85A /* SettingsTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +222,16 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		AC0A49A61621F207CAFDDB06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEAE6326927B47843C2510E6 /* Pods_dTalk.framework */,
+				A126059D128E0BA2FE03A852 /* Pods_dTalk_dTalkUITests.framework */,
+				3F13D4BAC010A98D989AC983 /* Pods_dTalkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93CAEE2324D5FF01000CFF06 /* Build configuration list for PBXNativeTarget "dTalk" */;
 			buildPhases = (
+				3AB394B4FF4564C0C88B5AA9 /* [CP] Check Pods Manifest.lock */,
 				93CAEDF224D5FF00000CFF06 /* Sources */,
 				93CAEDF324D5FF00000CFF06 /* Frameworks */,
 				93CAEDF424D5FF00000CFF06 /* Resources */,
+				DBAEE7E6A675DAB9BA92244D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93CAEE2624D5FF01000CFF06 /* Build configuration list for PBXNativeTarget "dTalkTests" */;
 			buildPhases = (
+				03EB4F7B4619C21D1B83C6D2 /* [CP] Check Pods Manifest.lock */,
 				93CAEE0B24D5FF01000CFF06 /* Sources */,
 				93CAEE0C24D5FF01000CFF06 /* Frameworks */,
 				93CAEE0D24D5FF01000CFF06 /* Resources */,
@@ -216,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93CAEE2924D5FF01000CFF06 /* Build configuration list for PBXNativeTarget "dTalkUITests" */;
 			buildPhases = (
+				D20390BC24280410D9DE9EB8 /* [CP] Check Pods Manifest.lock */,
 				93CAEE1624D5FF01000CFF06 /* Sources */,
 				93CAEE1724D5FF01000CFF06 /* Frameworks */,
 				93CAEE1824D5FF01000CFF06 /* Resources */,
+				AD3AD40A7C63D73DFDEA08BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,7 +342,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				93CAEE0924D5FF01000CFF06 /* LaunchScreen.storyboard in Resources */,
+				93DE70CA24DACDC90028723C /* GoogleService-Info.plist in Resources */,
 				93CAEE0624D5FF01000CFF06 /* Assets.xcassets in Resources */,
+				93072B7524DC336F00A4C85A /* SettingsTableViewCell.xib in Resources */,
 				93CAEE0124D5FF00000CFF06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +365,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03EB4F7B4619C21D1B83C6D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dTalkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AB394B4FF4564C0C88B5AA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD3AD40A7C63D73DFDEA08BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dTalk-dTalkUITests/Pods-dTalk-dTalkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dTalk-dTalkUITests/Pods-dTalk-dTalkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dTalk-dTalkUITests/Pods-dTalk-dTalkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20390BC24280410D9DE9EB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dTalk-dTalkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBAEE7E6A675DAB9BA92244D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dTalk/Pods-dTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dTalk/Pods-dTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dTalk/Pods-dTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93CAEDF224D5FF00000CFF06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -307,9 +475,13 @@
 			files = (
 				93CAEDFE24D5FF00000CFF06 /* LoginViewController.swift in Sources */,
 				93CAEE2D24D6242A000CFF06 /* RegisterViewController.swift in Sources */,
+				93072B7424DC336F00A4C85A /* SettingsTableViewCell.swift in Sources */,
 				93CAEDFA24D5FF00000CFF06 /* AppDelegate.swift in Sources */,
+				93072B6924DC1C0A00A4C85A /* SearchContactsViewController.swift in Sources */,
+				93072B6F24DC2D8C00A4C85A /* ProfileViewController.swift in Sources */,
 				93CAEE0424D5FF00000CFF06 /* dTalk.xcdatamodeld in Sources */,
 				93CAEDFC24D5FF00000CFF06 /* SceneDelegate.swift in Sources */,
+				93072B7124DC325A00A4C85A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +652,7 @@
 		};
 		93CAEE2424D5FF01000CFF06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07544878F7E8CEBE77467B2 /* Pods-dTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -498,6 +671,7 @@
 		};
 		93CAEE2524D5FF01000CFF06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC839BDE23C8BE446839E3E /* Pods-dTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +690,7 @@
 		};
 		93CAEE2724D5FF01000CFF06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11247CD626A816F070ACFE6D /* Pods-dTalkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +713,7 @@
 		};
 		93CAEE2824D5FF01000CFF06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB868755F8B5E68D44680AE9 /* Pods-dTalkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -560,6 +736,7 @@
 		};
 		93CAEE2A24D5FF01000CFF06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540EEDFB149A2E5E7DF1EE17 /* Pods-dTalk-dTalkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +757,7 @@
 		};
 		93CAEE2B24D5FF01000CFF06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70EA3654E67542AFBE2AA644 /* Pods-dTalk-dTalkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -6,6 +6,10 @@ target 'dTalk' do
   use_frameworks!
 
   # Pods for dTalk
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+
 
   target 'dTalkTests' do
     inherit! :search_paths
